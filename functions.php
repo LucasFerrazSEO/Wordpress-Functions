@@ -1,4 +1,4 @@
-/* Remove Rank Math sitemap cache */
+/* Remove Rank Math sitemap cache */ 
 add_filter( 'rank_math/sitemap/enable_caching', '__return_false');
 
 /* Retrieve the number of words in a text */
