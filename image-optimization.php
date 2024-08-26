@@ -1,12 +1,11 @@
 <?php
-
+/* Créditos: Rafael Oliveira */
 
 add_filter( 'wp_get_attachment_image_src', 'rapido_replace_img_src' , 1000, 2 );
 add_filter( 'wp_generate_attachment_metadata', 'rapido_handle_attachments', 1000, 2 );
 add_filter( 'big_image_size_threshold', 'rapido_handle_big_attachments', 1000);
 add_filter( 'upload_mimes', 'rapido_custom_mime_types' );
 add_action( 'wp_loaded', 'rapido_verify_for_image_optimization_libs');
-
 
 /**
  * Cria a versão webp da imagem baseado no path da original
