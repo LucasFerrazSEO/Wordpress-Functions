@@ -5,4 +5,6 @@ Functions: https://github.com/LucasFerrazSEO/Wordpress-Functions/blob/main/funct
 
 Recaptcha V3 on WP Login without plugins: https://github.com/LucasFerrazSEO/Wordpress-Functions/blob/main/recaptcha-v3-wp-login.php
 
+Otimização de imagens + geração de thumbnails e WEBP sob demanda: https://github.com/LucasFerrazSEO/Wordpress-Functions/blob/main/image-optimization.php
+
 My contacts: https://lucasferrazseo.com/
